@@ -12,7 +12,7 @@ useEffect(() => {
     const filter = ContentJson.filter(item => item._id !== Objects._id);
     const slicedItems = filter.slice(0, 3); 
     setfilteredItems(slicedItems)
-  },20000)
+  },9000)
 return ()=>clearInterval(interval)
 }, [])
   return (

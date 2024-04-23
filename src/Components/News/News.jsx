@@ -10,7 +10,7 @@ useEffect(() => {
     const Objects=ContentJson[UbJson]
     const filter = ContentJson.filter(item => item._id === Objects._id);
     setfilteredItems(filter)
-  },20000)
+  },9000)
 return ()=>clearInterval(interval)
 }, [])
 
